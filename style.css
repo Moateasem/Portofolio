@@ -294,4 +294,6 @@ justify-content: space-between;
 .social-icons{
   color: white;
 }
-  
+  .dash span{
+    color: black;
+  }

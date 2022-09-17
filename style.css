@@ -272,6 +272,8 @@ justify-content: space-between;
 }
 .footer-title{
   color: white;
+  display: flex;
+align-items: center;
 }
 .footer-title span {
   color: blue;
@@ -291,9 +293,11 @@ justify-content: space-between;
   color: white;
   text-align: center;
 }
-.social-icons{
+.social-icons img{
   color: white;
+  height: 100px;
+  border-radius: 10px;
 }
-  .dash span{
-    color: black;
-  }
+.social-icons {
+  
+}

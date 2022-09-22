@@ -155,7 +155,7 @@ section {
     flex-wrap: wrap;
 }
 
-
+.card8 {
     background-color: black;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
@@ -342,4 +342,7 @@ align-items: center;
 }
 .social-icons {
   
+}
+.icon- {
+  text-align: center;
 }

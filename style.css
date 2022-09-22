@@ -80,7 +80,7 @@ section {
 
 .main-btn {
     color: #fff;
-    background-color: #3a6cf4;
+    background-color: black;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -113,7 +113,7 @@ section {
     flex-wrap: wrap;
 }
 
-.card8 {
+.card{
     background-color: black;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);

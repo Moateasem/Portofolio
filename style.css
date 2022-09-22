@@ -135,7 +135,8 @@ section {
 }
 
 .main-btn:hover {
-    background-color: #0a49f6;
+    background-color: white;
+    color: black;
     transform: scale(1.1);
 }
 

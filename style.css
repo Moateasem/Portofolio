@@ -159,7 +159,7 @@ section {
     flex-wrap: wrap;
 }
 
-.card8 {
+.card {
     background-color: black;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
@@ -167,6 +167,9 @@ section {
     padding: 25px;
     margin: 15px;
     justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    color: white;
 }
 .card .icon {
     color: black;

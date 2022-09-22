@@ -9,37 +9,79 @@
 }
 
 
-header {
-    background-color: black;
-    width: 100%;
-    position: fixed;
-    z-index: 999;
+nav {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 200px ;
-}
-
-.logo{
+    justify-content: space-between;
+  }
+  nav .mainMenu {
+    display: flex;
+    list-style: none;
+  }
+  nav .mainMenu li a {
+    display: inline-block;
+    padding: 15px;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 0.2s ease;
+  }
+  
+  nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  nav .mainMenu .closeMenu,
+  .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+  
+  nav .logo {
+    margin: 6px;
+    cursor: pointer;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.8em;
-}
-
-.navigation a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: 500;
-    padding-left: 30px;
-}
-
-.navigation a:hover{
-    color: aqua;
-}
-
+  }
+  @media (max-width: 800px) {
+    nav .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgb(0, 0, 0);
+      transition: top 1s ease 0s;
+      display: none;
+    }
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav .openMenu {
+      display: block;
+    }
+    nav .mainMenu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+    }
+    .icons i {
+      display: inline-block;
+      padding: 12px;
+    }
+  }
+  
 section {
     padding: 100px 200px;
 }
@@ -113,7 +155,7 @@ section {
     flex-wrap: wrap;
 }
 
-.card{
+
     background-color: black;
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);

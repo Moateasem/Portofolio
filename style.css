@@ -418,13 +418,12 @@ form {
 .input {
   width: 100%;
   outline: none;
-  border: 2px solid #fafafa;
+  border: 1px solid black;
   background: none;
   padding: 0.6rem 1.2rem;
-  color: white;
+  color: black;
   font-weight: 500;
   font-size: 0.95rem;
-  letter-spacing: 0.5px;
   border-radius: 25px;
   transition: 0.3s;
 }
@@ -622,7 +621,7 @@ textarea.input {
 .message {
   width: 100%;
   outline: none;
-  border: 2px solid #fafafa;
+  border: 1px solid black;
   background: none;
   padding: 0.6rem 1.2rem;
   color: white;
@@ -633,16 +632,15 @@ textarea.input {
   transition: 0.3s;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: black;
-  opacity: 1; /* Firefox */
+  color: #d8e1e3;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: black;
+  color: #d8e1e3;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-  color: black;
+  color: #d8e1e3;
 }
 .title {
   color: black;

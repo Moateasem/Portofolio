@@ -313,25 +313,6 @@ section {
 .Services-info {
   font-size: 20px;
 }
-.footer {
-background: #000016;
-padding: 2em;
-display: flex;
-justify-content: space-between;
-}
-.footer-title{
-  color: white;
-  display: flex;
-align-items: center;
-}
-.footer-title span {
-  color: blue;
-}
-.icon9 {
-  font-size: 70px;
-  text-align: center;
-
-}
 .services-contect{
   flex-direction: column;
 }

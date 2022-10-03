@@ -9,8 +9,8 @@ closeMenu.addEventListener('click',close);
 menu_items.forEach(item => {
     item.addEventListener('click',function(){
         close();
-    })
-})
+    });
+});
 function show(){
     mainMenu.style.display = 'flex';
     mainMenu.style.top = '0';
@@ -42,5 +42,11 @@ $(document).ready(function(){
     } // End if
   });
 });
-
-/**
+function myFunction() {
+  var x = document.getElementById("nav");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

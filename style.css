@@ -287,7 +287,8 @@ section {
         flex-direction: column;
         align-items: center;
     }
-
+.main {
+background-size: 100%;
 }
 
 @media (max-width:641px){

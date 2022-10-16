@@ -625,3 +625,7 @@ textarea.input {
   color: black;
   text-align: center;
 }
+body{
+  background: black;
+  color: white;
+}

@@ -10,8 +10,8 @@
 
 
 nav {
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background: white;
+    color: black;
     display: flex;
     align-items: center;
     position: fixed;

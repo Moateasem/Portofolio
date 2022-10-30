@@ -62,9 +62,10 @@ nav {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: rgb(0, 0, 0);
+      background: white;
       transition: top 1s ease 0s;
       display: none;
+      color: black;
     }
     nav .mainMenu .closeMenu {
       display: block;
